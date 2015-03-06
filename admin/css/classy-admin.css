@@ -1,0 +1,22 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+ .classy-form {
+ 	width: 426px;
+ }
+
+ #update-classy label {
+ 	font-weight: bold;
+ 	font-size: 15px;
+ }
+ #update-classy input {
+ 	width: 100%;
+ 	margin: 5px 0 10px 0;
+ }
+
+ .error, .updated {
+ 	margin: 10px 0 !important;
+ 	width: 400px !important;
+ }
