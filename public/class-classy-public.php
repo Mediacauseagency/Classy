@@ -110,11 +110,7 @@ class Classy_Public {
 								<div class="campaigns">';
 						foreach ($campaigns as $campaign){
 						    $date = strtotime($campaign->start_date);
-						    if($campaign->address){
-						    	$location = $campaign->venue;
-						    } else {
-						    	$campaign->address;
-						    }
+						    $location = trim($campaign->address) == false ? $campaign->venue : $campaign->address;
 							$output .= '
 									<div class="single-campaign">
 										<p class="campaign-title"><a href="'. $campaign->campaign_url .'">'. $campaign->name .'</a></p>
