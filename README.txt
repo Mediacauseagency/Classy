@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Asitha, alana
+Contributors: Asitha
 Tags: classy,api,shortcodes
 Requires at least: 3.0.1
 Tested up to: 4.1.1
@@ -21,7 +21,7 @@ Currently supported shortcodes/API calls:
 * [classy_fundraisers]
 * [classy_donations]
 
-You are able to use attributes that are available on the API as well in your shortcodes. For example:
+You are able to use parameters that are available on the API as well in your shortcodes. For example:
 
 [classy_fundraisers order="firstname"]
 
