@@ -1,6 +1,5 @@
 === Plugin Name ===
 Contributors: asitha
-Donate link: http://mediacause.org
 Tags: classy,api,shortcodes
 Requires at least: 3.0.1
 Tested up to: 4.1.1
@@ -12,7 +11,7 @@ A tool used to integrate Classy's API into easily accessible shortcodes
 
 == Description ==
 
-[Classy](https://classy.org) is the world’s largest fundraising platform for social good organizations. Since 2011, we’ve enabled 1.3 million people across 300K individual campaigns to raise over $130M for social good organizations. From cutting-edge health programs to educational advancement, their customers are tackling the world’s greatest challenges with the power of the Classy platform.
+[Classy](https://classy.org) is the world’s largest fundraising platform for social good organizations. Since 2011, they've enabled 1.3 million people across 300K individual campaigns to raise over $130M for social good organizations. From cutting-edge health programs to educational advancement, their customers are tackling the world’s greatest challenges with the power of the Classy platform.
 
 This plugin integrates the Classy API via shortcodes for easy access on Wordpress.  
 
