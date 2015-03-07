@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: asitha
+Contributors: Asitha, alana
 Tags: classy,api,shortcodes
 Requires at least: 3.0.1
 Tested up to: 4.1.1
