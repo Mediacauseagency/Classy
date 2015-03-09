@@ -1,4 +1,4 @@
-=== Plugin Name ===
+### Plugin Name 
 Contributors: Asitha, alanapost
 Tags: classy,api,shortcodes
 Requires at least: 3.0.1
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A tool used to integrate Classy's API into easily accessible shortcodes
 
-== Description ==
+## Description
 
 [Classy](https://classy.org) is the world’s largest fundraising platform for social good organizations. Since 2011, they've enabled 1.3 million people across 300K individual campaigns to raise over $130M for social good organizations. From cutting-edge health programs to educational advancement, their customers are tackling the world’s greatest challenges with the power of the Classy platform.
 
@@ -31,17 +31,13 @@ This plugin was created using Tom McFarlin's Boilerplate WordPress Plugin templa
 
 [Classy API](http://go.stayclassy.org/hs-fs/hub/190333/file-1586506388-pdf/StayClassy_API_v1.1_FINAL_%281%29.pdf)
 
-== Screenshots ==
-
-1. **Classy Admin** - Updated your API Token and CID in the admin panel. 
-
-== Installation ==
+## Installation
 
 Upload the Classy plugin to your blog, activate it, then enter your API Token and CID in the Classy menu.
 
 To get your API Token and CID, you will need to contact [Classy support](https://fundraise.tofightcancer.com/help-center). 
 
-== Changelog ==
+## Changelog
 
 = 1.0 =
 * Initial plugin which includes campaigns, fundraisers and donations.
