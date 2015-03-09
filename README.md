@@ -1,4 +1,4 @@
-### Plugin Name 
+# Classy
 Contributors: Asitha, alanapost
 Tags: classy,api,shortcodes
 Requires at least: 3.0.1
