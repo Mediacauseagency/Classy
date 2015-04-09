@@ -4,14 +4,14 @@
  * The plugin bootstrap file
  *
  * @link              http://mediacause.org
- * @since             1.0.0
+ * @since             1.2
  * @package           Classy
  *
  * @wordpress-plugin
  * Plugin Name:       Classy
  * Plugin URI:        http://mediacause.org
  * Description:       A tool used to integrate Classy's API into easily accessible shortcodes
- * Version:           1.0.0
+ * Version:           1.2
  * Author:            Media Cause
  * Author URI:        http://mediacause.org
  * License:           GPL-2.0+
@@ -59,7 +59,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-classy.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ * @since    1.2
  */
 function run_classy() {
 
