@@ -46,6 +46,10 @@ Upload the Classy plugin to your blog, activate it, then enter your API Token an
 To get your API Token and CID, you will need to contact [Classy support](https://fundraise.tofightcancer.com/help-center). 
 
 ## Changelog
-
+### 1.2
+* Added new Classy admin icon
+* Added Activity Stream to Classy Admin
+* Added more shortcodes
+* Updated to new API
 ### 1.0
 * Initial plugin which includes campaigns, fundraisers and donations.
