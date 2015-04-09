@@ -18,8 +18,14 @@ This plugin integrates the Classy API via shortcodes for easy access on Wordpres
 Currently supported shortcodes/API calls:
 
 * [classy_campaigns]
-* [classy_fundraisers]
+* [classy_campaign_info]
 * [classy_donations]
+* [classy_fundraisers]
+* [classy_fundraiser_info]
+* [classy_teams]
+* [classy_team_info]
+* [classy_recurring]
+* [classy_project_info]
 
 You are able to use parameters that are available on the API as well in your shortcodes. For example:
 
