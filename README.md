@@ -51,5 +51,6 @@ To get your API Token and CID, you will need to contact [Classy support](https:/
 * Added Activity Stream to Classy Admin
 * Added more shortcodes
 * Updated to new API
+
 ### 1.0
 * Initial plugin which includes campaigns, fundraisers and donations.
