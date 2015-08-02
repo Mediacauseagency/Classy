@@ -4,7 +4,7 @@
  * Provide a dashboard view for the plugin
  *
  * @link       http://mediacause.org
- * @since      1.2
+ * @since      1.2.2
  *
  * @package    Classy
  * @subpackage Classy/admin/partials

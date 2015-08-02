@@ -4,7 +4,7 @@
  * The public-facing functionality of the plugin.
  *
  * @link       http://mediacause.org
- * @since      1.2
+ * @since      1.2.2
  *
  * @package    Classy
  * @subpackage Classy/public
@@ -22,7 +22,7 @@ class Classy_Public {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @access   private
 	 * @var      string    $classy    The ID of this plugin.
 	 */
@@ -31,7 +31,7 @@ class Classy_Public {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -40,7 +40,7 @@ class Classy_Public {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @access   private
 	 * @var      object    $api    The current account API Object
 	 */
@@ -52,7 +52,7 @@ class Classy_Public {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param      string    $classy       The name of the plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -69,7 +69,7 @@ class Classy_Public {
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 */
 	public function enqueue_styles() {
 		wp_enqueue_style( $this->classy, plugin_dir_url( __FILE__ ) . 'css/classy-public.css', array(), $this->version, 'all' );
@@ -78,7 +78,7 @@ class Classy_Public {
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 */
 	public function enqueue_scripts() {
 		wp_enqueue_script( $this->classy, plugin_dir_url( __FILE__ ) . 'js/classy-public.js', array( 'jquery' ), $this->version, false );

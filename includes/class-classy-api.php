@@ -4,7 +4,7 @@
  * Sets up Classy API for the various calls
  *
  * @link       http://mediacause.org
- * @since      1.2
+ * @since      1.2.2
  *
  * @package    Classy
  * @subpackage Classy/includes
@@ -15,7 +15,7 @@
  *
  * This class defines all code necessary to run during the plugin's API functionality.
  *
- * @since      1.2
+ * @since      1.2.2
  * @package    Classy
  * @subpackage Classy/includes
  * @author     Media Cause <web@mediacause.org>
@@ -32,7 +32,7 @@ class Classy_API {
 	/**
 	 * Updates Classy Token and CID information.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 */
 
 	public function update(){
@@ -60,7 +60,7 @@ class Classy_API {
 	/**
 	 * Get all the details about a specific charity account
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 */	
 	public function account_info(){
 		$url = 'https://www.classy.org/api1/account-info?token=' . $this->token . '&cid='. $this->cid;
@@ -77,7 +77,7 @@ class Classy_API {
 	 * fundraising page, or fundraising team. Results returned based on most recent 
 	 * activity.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function account_activity($attrs = 'limit=10'){
@@ -93,7 +93,7 @@ class Classy_API {
 	/**
 	 * Get information about matching sponsors for a campaign/event 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function account_sponsor_matching($attrs = '') {
@@ -109,7 +109,7 @@ class Classy_API {
 	/**
 	 * Get an array of all campaigns and events for a charity account 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function campaigns($attrs = '') {
@@ -125,7 +125,7 @@ class Classy_API {
 	/**
 	 * Get all the specific details about a specific campaign or event 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$eid 	The unique ID of the campaign/event
 	 */	
 	public function campaign_info($eid) {
@@ -141,7 +141,7 @@ class Classy_API {
 	/**
 	 * Get an array of all tickets for a specified campaign/event 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$eid 	The unique ID of the campaign/event
 	 */	
 	public function campaign_tickets($eid) {
@@ -158,7 +158,7 @@ class Classy_API {
 	 * Get array of individual fundraising pages for a specific charity, campaign/event, 
 	 * designation or member 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function fundraisers($attrs = '') {
@@ -174,7 +174,7 @@ class Classy_API {
 	/**
 	 * Get the details for a specific individual fundraising page
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$fcid 	The unique ID of the individual fundraising page
 	 */	
 	public function fundraiser_info($fcid) {
@@ -190,7 +190,7 @@ class Classy_API {
 	/**
 	 * Get a list of the top fundraising teams ranked by total $ raised for a specific campaign 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function teams($attrs = '') {
@@ -206,7 +206,7 @@ class Classy_API {
 	/**
 	 * Get the details for a specific individual fundraising team page
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$ftid 	The unique ID of the individual fundraising page
 	 */	
 	public function team_info($ftid) {
@@ -222,7 +222,7 @@ class Classy_API {
 	/**
 	 * Get an array of donations over a specific date range 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function donations($attrs = '') {
@@ -238,7 +238,7 @@ class Classy_API {
 	/**
 	 * Get an array of recurring donation profiles 
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$attrs 	The query string (optional)
 	 */	
 	public function recurring($attrs = '') {
@@ -255,7 +255,7 @@ class Classy_API {
 	 * Get all the details about a specific project. Projects are also referred to as 
 	 * designations and terminology is sometimes interchanged on Classy.
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$pid 	The unique ID of the project/designation
 	 */	
 	public function project_info($pid) {
@@ -271,7 +271,7 @@ class Classy_API {
 	/**
 	 * Retrieve ticket details for a specific campaign/event
 	 *
-	 * @since    1.2
+	 * @since      1.2.2
 	 * @param 	 string 	$eid 	The unique ID of the campaign/event
 	 */	
 	public function tickets($eid) {
