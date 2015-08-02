@@ -6,7 +6,7 @@
  * This file is used to markup the public-facing aspects of the plugin.
  *
  * @link       http://mediacause.org
- * @since      1.0.0
+ * @since      1.2.2
  *
  * @package    Classy
  * @subpackage Classy/public/partials

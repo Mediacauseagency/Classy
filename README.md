@@ -2,7 +2,7 @@
 * Contributors: Asitha, alanapost
 * Tags: classy,api,shortcodes
 * Requires at least: 3.0.1
-* Tested up to: 4.1.1
+* Tested up to: 4.2.3
 * Stable tag: 4.3
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,8 +18,14 @@ This plugin integrates the Classy API via shortcodes for easy access on Wordpres
 Currently supported shortcodes/API calls:
 
 * [classy_campaigns]
-* [classy_fundraisers]
+* [classy_campaign_info]
 * [classy_donations]
+* [classy_fundraisers]
+* [classy_fundraiser_info]
+* [classy_teams]
+* [classy_team_info]
+* [classy_recurring]
+* [classy_project_info]
 
 You are able to use parameters that are available on the API as well in your shortcodes. For example:
 
@@ -31,6 +37,8 @@ This plugin was created using Tom McFarlin's Boilerplate WordPress Plugin templa
 
 [Classy API](http://go.stayclassy.org/hs-fs/hub/190333/file-1586506388-pdf/StayClassy_API_v1.1_FINAL_%281%29.pdf)
 
+Want a customized version for your site? Reach out to us at [web@mediacause.org](mailto:web@mediacause.org)
+
 ## Installation
 
 Upload the Classy plugin to your blog, activate it, then enter your API Token and CID in the Classy menu.
@@ -38,6 +46,11 @@ Upload the Classy plugin to your blog, activate it, then enter your API Token an
 To get your API Token and CID, you will need to contact [Classy support](https://fundraise.tofightcancer.com/help-center). 
 
 ## Changelog
+### 1.2
+* Added new Classy admin icon
+* Added Activity Stream to Classy Admin
+* Added more shortcodes
+* Updated to new API
 
 ### 1.0
 * Initial plugin which includes campaigns, fundraisers and donations.
